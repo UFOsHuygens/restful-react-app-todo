@@ -22,7 +22,9 @@ export class Tarefas extends Component {
     }
 
     excluirTarefa(id) {
-        Axios.post("http://localhost:3001/api/delete", {id_middle : id})
+        // Aqui basicamente usamos uma rota para passar um id
+        Axios.delete("http://localhost:3001/api/delete/" + id);
+        // o id passado é deletado pelo middleware
     }
 
     render() {
