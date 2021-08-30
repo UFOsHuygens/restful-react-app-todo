@@ -1,4 +1,5 @@
-#### Aplicação React conectada com banco de dados MySQL que adiciona e remove tarefas.
+Integração do Frontend ReactJS com o Middleware ExpressJS,
+exemplo simples da API RESTful integrada com banco de dados mySQL
 
 <img src="exemplo-01.png" alt="Exemplo 01" />
 <img src="exemplo-02.png" alt="Exemplo 02" />
